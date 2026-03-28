@@ -1,5 +1,10 @@
 package edu.kis.vh.nursery;
+//Projekt dziala poprawnie, wszystkie testy przeszly
 
+/**
+ * klasa wyliczankowa, której działanie przypominają stos
+ * klasa pozwala na dodawanie liczb całkowitych oraz ich pobieranie,
+ */
 public class DefaultCountingOutRhymer {
 
     private static final int returned = -1;
@@ -8,6 +13,11 @@ public class DefaultCountingOutRhymer {
 
     private int total = returned;
 
+    /**
+     * dodaje nowa liczbe do wyliczanki
+     *
+     * @param in liczba calkowita dodatnia
+     */
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
