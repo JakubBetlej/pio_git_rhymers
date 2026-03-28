@@ -1,5 +1,5 @@
 package edu.kis.vh.nursery;
-
+//Projekt dziala poprawnie, wszystkie testy przeszly
 public class DefaultCountingOutRhymer {
 
     public static final int returned = -1;
